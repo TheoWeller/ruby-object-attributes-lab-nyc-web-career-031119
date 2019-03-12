@@ -1,9 +1,5 @@
 require 'pry'
 class Person
-  def initialize(name)
-    @name = name
-  end
-
   def name=(new_name)
     @name = new_name
   end
@@ -23,6 +19,6 @@ class Person
   def job
     @job
   end
-  
+
 end
 #binding.pry
